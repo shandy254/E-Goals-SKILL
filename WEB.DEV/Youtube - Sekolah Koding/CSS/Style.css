@@ -1,0 +1,52 @@
+
+/*
+cara memakai & menghubungkan html dg CSS
+1.	inline 		: langsung pada tag
+2.	internal	: file html yang sama
+3.	eksternal	: file CSS sendiri
+
+struktur dasar CSS :
+selektor{
+    property : nilai;
+    property2: nilai;
+}
+*/
+
+h1{
+    color:navy;
+}
+h2{
+    font-size:40px;
+}
+
+
+/* belajar id & class (lebih dr satu)*/
+.class{
+    background: purple;
+}
+#id{
+    background-color: aqua
+}
+#love{
+    background: black
+}
+
+
+/* belajar background */
+body{
+    /* macam cara pemberian warna background
+    background-color: blanchedalmond;   --> biasa
+    background-color: #dfdfdf;          --> hex color
+    background-color: rgb(100, 0, 0);   --> RGB
+    */
+    
+    /* secara panjang satu-satu agar mengerti & terbiasa */
+    background-color        : bisque;
+    background-image        : url("E:/Goals/SKILL/WEB.DEV/CSS/xx.JPG");
+    background-repeat       : no-repeat;
+    background-attachment   : fixed;
+    background-position     : center;
+    
+    /* bisa disingkat seperti di bawah (sama saja) */
+    background: bisque url("E:/Goals/SKILL/WEB.DEV/CSS/xx.JPG") no-repeat fixed center;
+}

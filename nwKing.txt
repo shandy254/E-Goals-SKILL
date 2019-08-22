@@ -1,0 +1,13 @@
+materi
+day1
+Switch/ hub
+LAN
+WAN
+network topology
+bus, star, ring, hybrid
+Internet speed (Bit)
+factor: 
+network speed
+delay
+availability
+Data (byte)

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+     <title> pembelajaran 2 </title>
+     <meta charset="UTF-8">
+  </head>
+
+    <body>
+      <!--belajar menghubungkan 2 halaman, table, dan list-->
+      <div>
+        <a href="../new 2.html">first</a>
+        <a href="part2.html">second</a>
+      </div>
+
+      <div>
+        <table border="2">
+          <caption>Kisahku</caption>
+          <tr>
+            <th>aku</th> <!--head-->
+            <th>suka</th>
+            <th>kamu</th>
+          </tr>
+          <tr>
+            <td>kamu</td>
+            <td>tidak suka</td>
+            <td>aku</td>
+          </tr>
+        </table>
+      </div>
+
+      <div>
+        <!--
+          Ordered list di bagi atas beberapa macam yaitu dengan tipe angka, abjad, angka romawi.
+          Macam macam type ordered list :
+          Jika type="1"     maka akan menampilkan 1,2,3,....
+          Jika type="a"     maka akan menampilkan a,b,c,....
+          Jika type="A"     maka akan menampilkan A,B,C,....
+          Jika type="i"     maka akan menampilkan i,ii,iii,....
+          Jika type="I"     maka akan menampilkan I,II,III,....
+
+          Macam macam type unordered list :
+          type  = "disc" (default)    untuk bentuk lingkaran berwarna hitam
+          type  = "square"            untuk bentuk lingkaran kotak
+        -->
+        <ul type="square"> usaha
+          <li>dropship</li>
+          <li>juice</li>
+          <li>daur ulang</li>
+        </ul>
+        <ol> skill WEB.DEV
+          <li>html</li>
+          <li>CSS</li>
+          <li>PHP</li>
+          <li>Javascript</li>
+        </ol>
+        <dl> <!--data list (jarang digunakan)-->
+          <dt>html</dt>  <!--data term-->
+          <dd>sebagai struktur/kerangka web</dd> <!--data description-->
+
+          <dt>CSS</dt>
+          <dd>untuk menghias web</dd>
+        </dl>
+      </div>
+      
+      
+      <!--belajar charset(diantara tag 'head'), entities (tdk ada di keyboard), & symbol 
+        (cari kodenya di w3schools,diawali dg '&' diakhiri ';')-->
+        <br/><p>contoh entities : &nbsp;&nbsp;&nbsp;&nbsp; '&nbsp;&nbsp;' ini untuk spasi</p><br/>
+
+
+      <!--belajar form, text(input), & textarea; serta attribute 'label' & 'id'-->
+      <!--belajar checkbox(bisa di cek/centang semua) dan radio(harus salah satu)-->
+      <!--belajar option dan select-->
+      
+      <div>
+        <br>
+        <form>
+        <fieldset> <!--mengotaki-->
+        <legend>Form</legend>
+
+          <label for="hayo">isi</label>
+          <input type="text" placeholder="anda ganteng" id="hayo">
+          <input type="text" value="anda krg ganteng"> 
+        <br> 
+        <br>
+          <label for="isinyaapa">hayo isinya apa</label><br>
+          <textarea cols="50" rows="3" id="isinyaapa">anda sangat ganteng</textarea>
+        <br>
+          <textarea cols="50" rows="1" placeholder="aku ganteng"></textarea>
+        <br>
+        <br>
+          <label>mana tipemu</label> <br>
+          <input type="checkbox" name="type" value="1" checked> cantik 
+          <input type="checkbox" name="type" value="2"> tinggi <br>
+          <input type="checkbox" name="type" value="3"> pintar 
+          <input type="checkbox" name="type" value="4"> baik
+        <br>
+          <label>suka yang mana</label> <br>
+          <input type="radio" name="mana" value="0"> cantik
+          <input type="radio" name="mana" value="1"> ganteng
+        <br>
+        <br>
+          <label>Tipe</label>
+          <select>
+            <optgroup label="outside">
+              <option value="ct"> cantik </option>
+              <option value="pt"> putih </option>
+              <option value="tg"> tinggi </option>
+            </optgroup>
+
+            <optgroup label="inside">
+              <option value="bk"> baik </option>
+              <option value="md"> mandiri </option>
+              <option value="rj"> rajin </option>
+            </optgroup>
+          </select>
+
+          <input type="submit" value="kirim data"> <!--efek: refresh sendiri-->
+        </fieldset>
+        </form>
+      </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,9 @@
+tutorial 1
+function:
+-robotic program
+-games
+-software desktop
+IDE & compiler:
+codeblock mingw
+
+tutorial 2
