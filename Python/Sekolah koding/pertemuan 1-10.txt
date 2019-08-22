@@ -1,0 +1,69 @@
+
+
+
+print("apa aja")
+nama="isinya apa"
+print(nama)
+
+print(10)
+x=10
+print(x)
+
+type(x)
+
+
+string - concatination
+
+x = "sekolah"
+print(x +  " koding")
+print("halo halo\" bandung") -> menampilkan 'petik' di dalam petik
+
+'\'	-> namanya karakter 'escape', untuk menampilkan karakter 'khusus'
+
+\n	enter
+\t	tab
+
+python string method -> googling
+
+x="sekolahkoding"
+x.capitalize()	-> kapital
+x.replace("sekolah","rumah")
+
+
+len(x)		-panjang
+max(x, y)
+min()
+round()		-pembulatan
+math.pi
+
+
+string & angka
+x = 200
+print("harga" , x)
+
+conversi
+str()
+int()
+
+
+
+lebih dari satu baris	--> pakai text editor
+format file	-> nama.py
+menjalankan :	
+-> terminal / cmd, masuk directory, python nama.py
+
+komentar
+#		-satu baris
+""" .. """	-lebih dari satu baris
+
+
+
+input
+nama = input("siapa nama anda?")
+print("salam kenal " + nama)
+
+=== pertemuan 10 Finishh ===
+
+
+
+
